@@ -1,0 +1,10 @@
+networks:
+  default: clhack
+  clhack:
+    dai_eth_price_feed: "0x773616E4d11A78F511299002da57A0a94577F1f4"
+dependencies:
+  - aave/protocol-v2@1.0.1
+compiler:
+  solc:
+    remappings:
+      - "@aave=aave/protocol-v2@1.0.1"
